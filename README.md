@@ -19,23 +19,3 @@ PHP (Using Composer for dependencies)
 MySQL (For user authentication)
 MongoDB (For storing user profile details)
 
-File Structure
-
-├── index.html
-├── login.html
-├── profile.html
-├── styles.css
-├── js/
-│   └── signup.js
-├── php/
-│   ├── db_config.php
-│   ├── signup.php
-│   ├── login.php
-│   ├── get_profile.php
-│   └── update_profile.php
-├── sql/
-│   └── user_db.sql
-├── vendor/
-│   └── (dependencies installed by Composer)
-├── README.md
-└── .gitignore
